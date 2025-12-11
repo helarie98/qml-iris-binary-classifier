@@ -1,14 +1,10 @@
-## QUANTUM MACHINE LEARNING PROJECT: BINARY CLASSIFICATION ON THE IRIS DATASET (A QClass23/24 Assignment – QWorld)
+# QUANTUM MACHINE LEARNING PROJECT: BINARY CLASSIFICATION ON THE IRIS DATASET (A QClass23/24 Assignment – QWorld)
 
-### 🌱 Project Overview
+## 🌱 Project Overview
 
-This project implements a quantum machine learning (QML) model using PennyLane to classify the first two classes of the Iris dataset: Setosa, Versicolor.
+This project implements a quantum machine learning (QML) model using PennyLane to classify the first two classes of the Iris dataset: Setosa, Versicolor. The model uses quantum circuits, differentiable programming, and classical optimization techniques to perform binary classification based on sepal and petal features. This work was completed as part of the QClass23/24 Quantum Machine Learning Task provided by QWorld.
 
-The model uses quantum circuits, differentiable programming, and classical optimization techniques to perform binary classification based on sepal and petal features.
-
-This work was completed as part of the QClass23/24 Quantum Machine Learning Task provided by QWorld.
-
-🧠 Objectives
+## 🧠 Objectives
 
 The goal of this project is to:
 
@@ -22,19 +18,20 @@ The goal of this project is to:
 
 - Demonstrate results in a clear, reproducible notebook
 
-📓 Notebook
+## 📓 Notebook
 
 All implementation and explanations are inside:
 
-👉 notebook/qml_iris_classifier.ipynb
+👉 Notebook
 
 This includes:
 
-Data preparation
+Data preparation and data ploting
 
 Quantum circuit design
 
 Data encoding method
+
 Cost function selection
 
 Optimizer choice
@@ -43,7 +40,8 @@ Training loop
 
 Evaluation metrics
 
-🧩 Model Summary
+
+## 🧩 Model Summary
 
 The QML Model used here is a variational quantum circuit implemented with PennyLane, using:
 
@@ -53,27 +51,28 @@ The QML Model used here is a variational quantum circuit implemented with PennyL
 
 - Entangling operations
 
-Encoding Method
+
+## Encoding Method
 
 The features are encoded using Angle embedding
 
-Cost Function: Mean squared error (MSE) 
+## Cost Function: 
+Mean squared error (MSE) 
 
-Optimization Method: Gradient Descent Optimizer
+##Optimization Method: 
+Gradient Descent Optimizer
 
-📦 Installation
+## 📦 Installation
 
-To reproduce the results:
-
-git clone https://github.com/<helarie98>/<qml-iris-binary-classifier>.git
+To reproduce the results: git clone https://github.com/<helarie98>/<qml-iris-binary-classifier>.git
 cd <qml-iris-binary-classifier>
 
 pip install -r requirements.txt
 
-▶️ Running the Notebook
-jupyter notebook notebook/qml_iris_classifier.ipynb
+## ▶️ Running the Notebook
+jupyter notebook: Notebook/qml_iris_classifier.ipynb
 
-📚 References
+## 📚 References
 
 * PennyLane tutorials: https://pennylane.ai/qml/demonstrations/
 
@@ -85,6 +84,6 @@ jupyter notebook notebook/qml_iris_classifier.ipynb
 
 * QClass23/24 materials
 
-📄 License
+## 📄 License
 
 This project is released under the MIT License.
