@@ -24,21 +24,7 @@ All implementation and explanations are inside:
 
 👉 Notebook
 
-This includes:
-
-Data preparation and data ploting
-
-Quantum circuit design
-
-Data encoding method
-
-Cost function selection
-
-Optimizer choice
-
-Training loop
-
-Evaluation metrics
+This includes: Data preparation and data ploting, Quantum circuit design, Data encoding method, Cost function selection, Optimizer choice, Training loop, Evaluation metrics.
 
 
 ## 🧩 Model Summary
@@ -59,7 +45,7 @@ The features are encoded using Angle embedding
 ## Cost Function: 
 Mean squared error (MSE) 
 
-##Optimization Method: 
+## Optimization Method: 
 Gradient Descent Optimizer
 
 ## 📦 Installation
