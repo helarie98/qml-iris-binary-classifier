@@ -1,8 +1,6 @@
-# Quantum Machine Learning: Binary Classification on the Iris Dataset
+## QUANTUM MACHINE LEARNING PROJECT: BINARY CLASSIFICATION ON THE IRIS DATASET (A QClass23/24 Assignment – QWorld)
 
-A QClass23/24 Assignment – QWorld
-
-🌱 Project Overview
+### 🌱 Project Overview
 
 This project implements a quantum machine learning (QML) model using PennyLane to classify the first two classes of the Iris dataset: Setosa, Versicolor.
 
